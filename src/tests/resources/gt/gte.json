@@ -1,0 +1,13 @@
+{
+    "type": "and",
+    "data": [
+        {
+            "type": "operator",
+            "data": {
+                "attribute": "age",
+                "operator": "gte",
+                "value": 21
+            }
+        }
+    ]
+}

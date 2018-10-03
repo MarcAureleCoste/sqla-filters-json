@@ -1,0 +1,13 @@
+{
+    "type": "and",
+    "data": [
+        {
+            "type": "operator",
+            "data": {
+                "attribute": "author.posts.pages",
+                "operator": "gte",
+                "value": 7
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "and",
+    "data": [
+        {
+            "type": "operator",
+            "data": {
+                "attribute": "posts.pub_date",
+                "operator": "gt",
+                "value": "2018-05-01"
+            }
+        }
+    ]
+}

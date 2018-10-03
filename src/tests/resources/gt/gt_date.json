@@ -1,0 +1,13 @@
+{
+    "type": "and",
+    "data": [
+        {
+            "type": "operator",
+            "data": {
+                "attribute": "pub_date",
+                "operator": "gt",
+                "value": "2018-04-01"
+            }
+        }
+    ]
+}
