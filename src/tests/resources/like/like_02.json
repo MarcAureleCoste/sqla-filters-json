@@ -1,0 +1,13 @@
+{
+    "type": "and",
+    "data": [
+        {
+            "type": "operator",
+            "data": {
+                "attribute": "name",
+                "operator": "like",
+                "value": "%_1"
+            }
+        }
+    ]
+}

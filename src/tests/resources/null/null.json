@@ -1,0 +1,12 @@
+{
+    "type": "and",
+    "data": [
+        {
+            "type": "operator",
+            "data": {
+                "attribute": "average",
+                "operator": "null"
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "and",
+    "data": [
+        {
+            "type": "operator",
+            "data": {
+                "attribute": "name",
+                "operator": "not_eq",
+                "value": "Toto"
+            }
+        }
+    ]
+}

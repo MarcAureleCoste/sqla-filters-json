@@ -1,0 +1,13 @@
+{
+    "type": "and",
+    "data": [
+        {
+            "type": "operator",
+            "data": {
+                "attribute": "author.person.name",
+                "operator": "not_eq",
+                "value": "Person_1"
+            }
+        }
+    ]
+}
