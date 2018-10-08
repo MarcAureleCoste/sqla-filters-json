@@ -2,8 +2,8 @@ import os
 from typing import Dict
 
 from sqla_filters.parser.json import JSONFiltersParser
-from sqla_filters.filter import (
-    AndNode,
+from sqla_filters.nodes.logical import AndNode
+from sqla_filters.nodes.operational import (
     EqNode,
     NotEqNode,
     NullNode,

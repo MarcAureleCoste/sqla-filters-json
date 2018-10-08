@@ -8,7 +8,7 @@ This package
 ## Installation
 
 ```bash
-pip install sqla-filter
+pip install sqla-filter-json
 ```
 
 ## Getting Started
