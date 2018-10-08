@@ -34,7 +34,8 @@ DEV_REQUIRE: List[str] = [
     'mypy',
     'pytest',
     'rope',
-    'sphinx'
+    'sphinx',
+    'twine'
 ]
 
 setup(

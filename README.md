@@ -1,4 +1,5 @@
 # Sqla-filters-json
+
 Add json parser to the sqla-filters package.
 
 ## Introduction 
@@ -53,7 +54,7 @@ pip install sqla-filter-json
 ```
 :warning: Json format can change in the futur. :warning:
 
-### Example code
+
 
 Create an instance of the JSONFilterParser with the json string.
 
@@ -74,3 +75,35 @@ filtered_query = parser.tree.filter(query)
 # Get the results
 query.all()
 ```
+
+### Result tree
+
+```
+                                      +----------------------+
+                                      |                      |
+                                      |          and         |
+                                      |                      |
+                                      -----------------------+
+                                                 ||
+                                                 ||
+                                                 ||
+                    +----------------------+     ||     +----------------------+
+                    |                      |     ||     |                      |
+                    |          or          <------------>      age == 21       |
+                    |                      |            |                      |
+                    +----------------------+            +----------------------+
+                               ||
+                               ||
+                               ||
++----------------------+       ||       +----------------------+
+|                      |       ||       |                      |
+|     name == toto     <---------------->     name == tata     |
+|                      |                |                      |
++----------------------+                +----------------------+
+```
+
+# Contribute
+
+Fork the repository and run the following command to install the dependencies and the dev dependencies.
+
+`pip install -e '.[dev]'`
