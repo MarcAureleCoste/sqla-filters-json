@@ -7,17 +7,17 @@
 sqla-filters-json : Build filter tree from JSON
 ===============================================
 
-.. image:: https://img.shields.io/pypi/v/sqla-filters.svg
-    :target: https://pypi.org/project/sqla-filters/
+.. image:: https://img.shields.io/pypi/v/sqla-filters-json.svg
+    :target: https://pypi.org/project/sqla-filters-json/
 
-.. image:: https://img.shields.io/pypi/l/sqla-filters.svg
-    :target: https://pypi.org/project/sqla-filters/
+.. image:: https://img.shields.io/pypi/l/sqla-filters-json.svg
+    :target: https://pypi.org/project/sqla-filters-json/
 
-.. image:: https://img.shields.io/pypi/wheel/sqla-filters.svg
-    :target: https://pypi.org/project/sqla-filters/
+.. image:: https://img.shields.io/pypi/wheel/sqla-filters-json.svg
+    :target: https://pypi.org/project/sqla-filters-json/
 
-.. image:: https://img.shields.io/pypi/pyversions/sqla-filters.svg
-    :target: https://pypi.org/project/sqla-filters/
+.. image:: https://img.shields.io/pypi/pyversions/sqla-filters-json.svg
+    :target: https://pypi.org/project/sqla-filters-json/
 
 .. image:: https://img.shields.io/discord/479781351051100170.svg?logo=discord
     :target: https://discord.gg/eQ4Mtc8
