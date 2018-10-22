@@ -4,6 +4,7 @@
 ![license](https://img.shields.io/pypi/l/sqla-filters-json.svg)
 ![wheel](https://img.shields.io/pypi/wheel/sqla-filters-json.svg)
 ![pyversions](https://img.shields.io/pypi/pyversions/sqla-filters-json.svg)
+[![Updates](https://pyup.io/repos/github/MarcAureleCoste/sqla-filters-json/shield.svg)](https://pyup.io/repos/github/MarcAureleCoste/sqla-filters-json/)
 
 Add json parser to the sqla-filters package.
 
