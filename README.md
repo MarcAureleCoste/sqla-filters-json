@@ -1,5 +1,7 @@
 # Sqla-filters-json
 
+![AzurePipeline](https://marc-aurele.visualstudio.com/sqla-filters/_apis/build/status/MarcAureleCoste.sqla-filters-json)
+
 Add json parser to the sqla-filters package.
 
 ## Introduction 
